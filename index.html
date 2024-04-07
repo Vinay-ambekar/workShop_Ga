@@ -8,9 +8,35 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- fontawosone cdn link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css"/>
 </head>
 <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid justify-content-between">
+            <div class="logo">
+                <img src="https://www.achieversit.com/assets/images/logo-white.png" alt="logo">
+            </div>
+            <div class="icons">
+                <span class="navbar-toggler border-0" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon navbar-toggler-icon-custom"></span>
+                    
+                </span>
+            </div>
+        </div>
+        <div class="collapse navbar-collapse px-4" id="navbarSupportedContent">
+            <i class="p-3 m-2 fs-5 bg-light rounded-5 fa-brands fa-facebook-f text-black"></i>
+            <i class="p-3 m-2 fs-5 bg-light rounded-5 fa-brands fa-instagram text-black"></i>
+            <i class="p-3 m-2 fs-5 bg-light rounded-5 fa-brands fa-linkedin text-black"></i>
+            <i class="p-3 m-2 fs-5 bg-light rounded-5 fa-brands fa-twitter text-black"></i>
+            <i class="p-3 m-2 fs-5 bg-light rounded-5 fa-brands fa-pinterest text-black"></i>
+            <i class="p-3 m-2 fs-5 bg-light rounded-5 fa-brands fa-youtube text-black"></i>
+        </div>
+    </nav>
+    
+    <!-- navbar end -->
     <div class="container-fluid">
+        
         <div class="container-fluid mt-3">
             <!-- heading -->
             <div class="row">
@@ -603,17 +629,17 @@
     </div>
 </div>    
 <!-- Money Back Guarantee end -->
-<div class="container-fluid bg-white py-4 d-flex-column justify-content-center">
+<div class="container-fluid bg-white py-4 d-flex-column justify-content-center question">
     <p class="fs-1 fw-bold text-center">Frequently Asked <span class="text-primary">Questions</span></p>
     <div class="d-flex justify-content-center align-items-center pb-3">
         <i class="fa fa-minus fs-4 text-secondary text-center"></i><i class="fa fa-minus fs-1 text-primary"></i>    
     </div>
-   <div class="text-white container mb-3">
-    <div class="btn btn-primary d-flex justify-content-evenly align-items-center"> 
-        <a class="btn w-100 text-start text-light p-2 fs-4 fw-bold" data-bs-toggle="collapse" href="#collapseExample"  aria-expanded="false" aria-controls="collapseExample">
+   <div class="text-black container mb-3">
+    <div class="btn btn-secondary d-flex justify-content-evenly align-items-center"> 
+        <p class=" w-100 text-start p-2 fs-4 fw-bold" data-bs-toggle="collapse" href="#collapseExample"  aria-expanded="false" aria-controls="collapseExample">
               How will i get the link to attend the program?
-           </a>
-           <i class="fa fa-chevron-circle-down fs-4"></i>
+        </p>
+           <i class=" fa fa-chevron-circle-down fs-4 text-light"></i>
     </div>
         
         <div class="collapse " id="collapseExample">
@@ -623,10 +649,10 @@
         </div>
    </div>
    <div class="text-white container mb-3">
-    <div class="btn btn-primary d-flex justify-content-evenly align-items-center"> 
-        <a class="btn w-100 text-start text-light p-2 fs-4 fw-bold" data-bs-toggle="collapse" href="#collapseExample1"  aria-expanded="false" aria-controls="collapseExample">
+    <div class="btn btn-secondary d-flex justify-content-evenly align-items-center"> 
+        <p class=" w-100 text-start text-light p-2 fs-4 fw-bold" data-bs-toggle="collapse" href="#collapseExample1"  aria-expanded="false" aria-controls="collapseExample">
              Why does this program cost only ₹99?
-           </a>
+        </p>
            <i class="fa fa-chevron-circle-down fs-4"></i>
     </div>
         
@@ -637,10 +663,10 @@
         </div>
     </div>
     <div class="text-white container mb-3">
-        <div class="btn btn-primary d-flex justify-content-evenly align-items-center">
-            <a class="btn w-100 text-start text-light p-2 fs-4 fw-bold" data-bs-toggle="collapse" href="#collapseExample2"  aria-expanded="false" aria-controls="collapseExample">
+        <div class="btn btn-secondary d-flex justify-content-evenly align-items-center" id="q1">
+            <p class=" w-100 text-start text-light p-2 fs-4 fw-bold" id="q1" data-bs-toggle="collapse" href="#collapseExample2"  aria-expanded="false" aria-controls="collapseExample">
               When is the Workshop? 
-           </a>
+            </p>
            <i class="fa fa-chevron-circle-down fs-4"></i>
         </div>
         
@@ -651,10 +677,10 @@
         </div>
     </div>
     <div class="text-white container mb-3">
-        <div class="btn btn-primary d-flex justify-content-evenly align-items-center">
-            <a class="btn w-100 text-start text-light p-2 fs-4 fw-bold" data-bs-toggle="collapse" href="#collapseExample3"  aria-expanded="false" aria-controls="collapseExample">
+        <div class="btn btn-secondary d-flex justify-content-evenly align-items-center">
+            <p class=" w-100 text-start text-light p-2 fs-4 fw-bold" data-bs-toggle="collapse" href="#collapseExample3"  aria-expanded="false" aria-controls="collapseExample">
              Will I get the recording of the program?
-           </a>
+            </p>
            <i class="fa fa-chevron-circle-down fs-4"></i>
         </div>
         
@@ -665,10 +691,10 @@
         </div>
     </div>
     <div class="text-white container mb-3">
-        <div class="btn btn-primary d-flex justify-content-evenly align-items-center">
-            <a class="btn w-100 text-start text-light p-2 fs-4 fw-bold" data-bs-toggle="collapse" href="#collapseExample4"  aria-expanded="false" aria-controls="collapseExample">
+        <div class="btn btn-secondary d-flex justify-content-evenly align-items-center">
+            <p class=" w-100 text-start text-light p-2 fs-4 fw-bold" data-bs-toggle="collapse" href="#collapseExample4"  aria-expanded="false" aria-controls="collapseExample">
              If I miss attending this time can I attend this again?
-           </a>
+            </p>
            <i class="fa fa-chevron-circle-down fs-4"></i>
         </div>
         
@@ -679,10 +705,10 @@
         </div>
     </div>
     <div class="text-white container mb-3">
-        <div class="btn btn-primary  d-flex justify-content-evenly align-items-center">
-            <a class="btn w-100 text-start text-light p-2 fs-4 fw-bold" data-bs-toggle="collapse" href="#collapseExample5"  aria-expanded="false" aria-controls="collapseExample">
+        <div class="btn btn-secondary  d-flex justify-content-evenly align-items-center">
+            <p class=" w-100 text-start text-light p-2 fs-4 fw-bold" data-bs-toggle="collapse" href="#collapseExample5"  aria-expanded="false" aria-controls="collapseExample">
                 What do I need to Keep handy during the webinar?
-            </a>
+            </p>
             <i class="fa fa-chevron-circle-down fs-4"></i>            
         </div>
         <div class="collapse" id="collapseExample5">
